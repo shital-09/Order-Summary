@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: hsl(225, 100%, 94%);
+}
+ .container{
+    width:420px;
+    margin: 80px auto;
+    height: 550px;
+    background-color: rgb(252, 253, 252);
+    border: 2px solid rgb(255, 254, 254);
+    text-align: center;
+    border-radius:20px;
+    font-family: 'Red Hat Display', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container>img{
+    width:418px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 20px;
+
+} 
+
+.container h3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.container p{
+    font-size: 16px;
+    padding:20px 40px;
+    opacity: 0.7;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music{
+    margin-right: 20px;
+}
+.plan{
+    margin-right: 60px;
+
+}
+.btn{
+    color: hsl(245, 75%, 52%);
+    font-size: 16px;
+    font-weight: 700;
+
+
+}
+button{
+    padding: 10px 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:  hsl(245, 75%, 52%);
+    outline:none;
+    border-color:hsl(245, 75%, 52%) ;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background-color:hsl(245, 96%, 50%) ;
+}
+.cancel-button p{
+    font-size: 16px;
+    color: rgb(5, 5, 5);
+     margin-bottom: 20px;
+     font-weight: 700;
+     opacity: 0.7;
+
+}
+
+@media (max-width:375px){
+    .container{
+        width:300px;
+        margin: 100px auto;
+        height: 500px;    
+    }
+    .container>img{
+        width:300px;  
+    } 
+    .container p{
+        padding:20px 25px;
+    }
+    button{
+        padding: 10px 50px;
+        margin-top: 20px;
+        border-radius: 7px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
